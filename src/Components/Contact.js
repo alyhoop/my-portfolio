@@ -3,7 +3,9 @@ import '../CSS/Contact.css';
 
 function Contact() {
   return(
-    <h1>I'm a contact component.</h1>
+    <div className="contact">
+      <h1>I'm a contact component.</h1>
+    </div>
   );
 }
 
