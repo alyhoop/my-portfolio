@@ -1,5 +1,5 @@
 import React from 'react'
-import './CSS/Greeting.css'
+import '../CSS/Greeting.css'
 
 function Greeting() {
   return(
