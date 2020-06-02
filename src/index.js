@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './CSS/index.css';
 import Header from './Components/Header';
 import Card from './Components/Card';
+import Contact from './Components/Contact';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <Card />
+    <Contact />
   </React.StrictMode>,
   document.getElementById('root')
 );
