@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&display=swap');
 
+/*
+CSS
+--cultured: hsla(210, 1%, 98%, 1);
+--cultured-2: hsla(210, 3%, 94%, 1);
+--gainsboro: hsla(210, 3%, 90%, 1);
+--light-gray: hsla(210, 6%, 85%, 1);
+--cadet-blue-crayola: hsla(210, 8%, 74%, 1);
+--nickel: hsla(208, 14%, 49%, 1);
+--charcoal: hsla(210, 16%, 34%, 1);
+--onyx: hsla(210, 19%, 25%, 1);
+--raisin-black: hsla(210, 20%, 16%, 1);
+ */
+
+
 body {
   margin: 0;
   font-family: 'Barlow Condensed', sans-serif;
