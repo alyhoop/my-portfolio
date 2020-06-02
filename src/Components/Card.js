@@ -1,10 +1,10 @@
 import React from 'react'
-import '../CSS/Greeting.css'
+import '../CSS/Card.css'
 
-function Greeting() {
+function Card() {
   return(
     <h1>I'm a component too.</h1>
   );
 }
 
-export default Greeting;
+export default Card;

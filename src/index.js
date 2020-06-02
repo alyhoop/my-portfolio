@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './CSS/index.css';
-import App from './Components/App';
-import Greeting from './Components/Greeting';
+import Header from './Components/Header';
+import Card from './Components/Card';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <Greeting />
+    <Header />
+    <Card />
   </React.StrictMode>,
   document.getElementById('root')
 );
