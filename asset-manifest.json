@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/alyhoop/static/css/main.6f1d499e.chunk.css",
+    "main.js": "/alyhoop/static/js/main.13496af7.chunk.js",
+    "main.js.map": "/alyhoop/static/js/main.13496af7.chunk.js.map",
+    "runtime-main.js": "/alyhoop/static/js/runtime-main.3513b9e8.js",
+    "runtime-main.js.map": "/alyhoop/static/js/runtime-main.3513b9e8.js.map",
+    "static/js/2.b9e4323c.chunk.js": "/alyhoop/static/js/2.b9e4323c.chunk.js",
+    "static/js/2.b9e4323c.chunk.js.map": "/alyhoop/static/js/2.b9e4323c.chunk.js.map",
+    "index.html": "/alyhoop/index.html",
+    "precache-manifest.3cfc4c65d311c685151d491c0dcb7409.js": "/alyhoop/precache-manifest.3cfc4c65d311c685151d491c0dcb7409.js",
+    "service-worker.js": "/alyhoop/service-worker.js",
+    "static/css/main.6f1d499e.chunk.css.map": "/alyhoop/static/css/main.6f1d499e.chunk.css.map",
+    "static/js/2.b9e4323c.chunk.js.LICENSE.txt": "/alyhoop/static/js/2.b9e4323c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3513b9e8.js",
+    "static/js/2.b9e4323c.chunk.js",
+    "static/css/main.6f1d499e.chunk.css",
+    "static/js/main.13496af7.chunk.js"
+  ]
+}
