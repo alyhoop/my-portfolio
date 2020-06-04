@@ -6,6 +6,7 @@ import Header from './Components/Header';
 import Card from './Components/Card';
 import Contact from './Components/Contact';
 import * as serviceWorker from './serviceWorker';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
