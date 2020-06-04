@@ -7,7 +7,7 @@ class NavigationBar extends Component {
     return (
       <div>
         <Navbar bg="dark" variant="dark" sticky="top" fixed="top">
-         <Navbar href="#home">AlyHoop</Navbar>
+         <Navbar id="name" href="#home">AlyHoop</Navbar>
          <Nav className="mr-auto">
            <Nav.Link href="#home">Home</Nav.Link>
            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
