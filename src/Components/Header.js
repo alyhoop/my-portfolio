@@ -3,12 +3,12 @@ import '../CSS/Header.css';
 
 function Header() {
   return (
-    <div className="header">
-      <span className="header-title">
+    <div className="landing">
+      <span className="landing-title">
         Hi there, I'm Alyssa Hooper;
       </span>
       <br/>
-      <span className="header-about"> I'm a junior web developer!
+      <span className="landing-about"> I'm a junior web developer!
       </span>
     </div>
   );

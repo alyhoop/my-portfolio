@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './CSS/index.css';
 import Navbar from './Components/Navbar';
 import Header from './Components/Header';
-import Card from './Components/Card';
+import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
 import * as serviceWorker from './serviceWorker';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -12,7 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Navbar />
     <Header />
-    <Card />
+    <Portfolio />
     <Contact />
   </React.StrictMode>,
   document.getElementById('root')
