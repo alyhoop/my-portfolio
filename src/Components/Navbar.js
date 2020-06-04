@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import '../CSS/Navbar.css';
 
-export default class NavigationBar extends React.Component {
+class NavigationBar extends Component {
   render() {
     return (
       <div>
@@ -18,3 +18,5 @@ export default class NavigationBar extends React.Component {
     );
   }
 }
+
+export default NavigationBar;
