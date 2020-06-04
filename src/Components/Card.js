@@ -5,7 +5,7 @@ function Card() {
   return(
     <div className="card">
       <span className="card-info">
-        I'm a body component.
+        I'm a body component. And I'm new.
       </span>
     </div>
   );
