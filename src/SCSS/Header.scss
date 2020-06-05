@@ -1,5 +1,7 @@
+@import './index.scss';
+
 .landing {
+  font: 100% $font-stack;
   margin: 0;
-  font-family: 'Barlow Condensed', sans-serif;
   text-align: center;
 }
