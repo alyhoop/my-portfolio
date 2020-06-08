@@ -4,7 +4,7 @@ import '../SCSS/Contact.scss';
 class Contact extends Component {
   render(){
     return(
-      <div className="contact">
+      <div className="container fixed-bottom contact">
         <span className="contact-github">
           <i class="fab fa-github-square"></i>
         </span>
