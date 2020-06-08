@@ -5,8 +5,14 @@ class Contact extends Component {
   render(){
     return(
       <div className="contact">
-        <span className="contact-info">
-          I'm a contact component.
+        <span className="contact-github">
+          <i class="fab fa-github-square"></i>
+        </span>
+        <span className="contact-linkedin">
+          <i class="fab fa-linkedin"></i>
+        </span>
+        <span className="contact-email">
+          <i class="fas fa-envelope"></i>
         </span>
       </div>
     );
