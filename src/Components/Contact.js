@@ -6,13 +6,13 @@ class Contact extends Component {
     return(
       <div className="container fixed-bottom contact">
         <span className="contact-github">
-          <i class="fab fa-github-square"></i>
+          <i class="fab fa-github-square fa-2x"></i>
         </span>
         <span className="contact-linkedin">
-          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-linkedin fa-2x"></i>
         </span>
         <span className="contact-email">
-          <i class="fas fa-envelope"></i>
+          <i class="fas fa-envelope fa-2x"></i>
         </span>
       </div>
     );
