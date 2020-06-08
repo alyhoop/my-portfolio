@@ -6,7 +6,7 @@ class Portfolio extends Component {
     return(
       <div className="portfolio">
         <span className="portfolio-info">
-          I'm a portfolio.
+          <p>I have experience in JavaScript, React, Angular, HTML5/CSS3, SASS, Bootstrap & Git.</p>
         </span>
       </div>
     );

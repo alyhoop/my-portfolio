@@ -9,7 +9,7 @@ class Header extends Component{
           Hi there, I'm Alyssa Hooper;
         </span>
         <br/>
-        <span className="landing-about"> I'm a junior web developer!
+        <span className="landing-about"> I'm an aspiring junior developer!
         </span>
       </div>
     );
