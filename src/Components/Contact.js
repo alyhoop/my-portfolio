@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import '../SCSS/Contact.scss';
+
+
 
 class Contact extends Component {
   render(){
@@ -14,9 +20,12 @@ class Contact extends Component {
         <span className="contact-email">
           <i class="fas fa-envelope fa-2x"></i>
         </span>
+        <FontAwesomeIcon icon={faGithub} />
+        <FontAwesomeIcon icon={faCoffee} />
       </div>
     );
   }
 }
+
 
 export default Contact;
