@@ -8,9 +8,9 @@ class NavigationBar extends Component {
       <div>
         <Navbar bg="dark" variant="dark" sticky="top" fixed="top">
          <Nav className="mr-auto">
-           <Nav.Link href="#home">Home</Nav.Link>
-           <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-           <Nav.Link href="#contact">Contact</Nav.Link>
+           <Nav.Link href="/">Home</Nav.Link>
+           <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
+           <Nav.Link href="/Contact">Contact</Nav.Link>
          </Nav>
         </Navbar>
       </div>
