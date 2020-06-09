@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import '../SCSS/Contact.scss';
 
 
@@ -12,16 +12,14 @@ class Contact extends Component {
     return(
       <div className="container fixed-bottom contact">
         <span className="contact-github">
-          <i class="fab fa-github-square fa-2x"></i>
+          <FontAwesomeIcon icon={faGithub} />
         </span>
         <span className="contact-linkedin">
-          <i class="fab fa-linkedin fa-2x"></i>
+          <FontAwesomeIcon icon={faLinkedin} />
         </span>
         <span className="contact-email">
-          <i class="fas fa-envelope fa-2x"></i>
+          <FontAwesomeIcon icon={faEnvelope} />
         </span>
-        <FontAwesomeIcon icon={faGithub} />
-        <FontAwesomeIcon icon={faCoffee} />
       </div>
     );
   }
