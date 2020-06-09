@@ -12,22 +12,28 @@ class Contact extends Component {
     return(
       <div className="container fixed-bottom contact">
         <span className="contact-github">
-          <FontAwesomeIcon
-            icon={faGithub}
-            size="2x"
-          />
+          <a href="https://github.com/alyhoop">
+            <FontAwesomeIcon
+              icon={faGithub}
+              size="2x"
+            />
+          </a>
         </span>
         <span className="contact-linkedin">
-          <FontAwesomeIcon
-            icon={faLinkedin}
-            size="2x"
-          />
+          <a href="https://www.linkedin.com/in/alyssa-hooper-300b6818a/">
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              size="2x"
+            />
+          </a>
         </span>
         <span className="contact-email">
-          <FontAwesomeIcon
-            icon={faEnvelope}
-            size="2x"
-          />
+          <a href="mailto:alyssavladahoop@gmail.com">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              size="2x"
+            />
+          </a>
         </span>
       </div>
     );
