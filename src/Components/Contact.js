@@ -6,7 +6,6 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import '../SCSS/Contact.scss';
 
 
-
 class Contact extends Component {
   render(){
     return(
@@ -16,6 +15,7 @@ class Contact extends Component {
             <FontAwesomeIcon
               icon={faGithub}
               size="2x"
+              id="github"
             />
           </a>
         </span>
@@ -24,6 +24,7 @@ class Contact extends Component {
             <FontAwesomeIcon
               icon={faLinkedin}
               size="2x"
+              id="linkedin"
             />
           </a>
         </span>
@@ -32,6 +33,7 @@ class Contact extends Component {
             <FontAwesomeIcon
               icon={faEnvelope}
               size="2x"
+              id="email"
             />
           </a>
         </span>

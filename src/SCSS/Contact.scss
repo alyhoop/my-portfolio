@@ -2,22 +2,36 @@
 
 
 .contact {
-  font: 100% $font-stack;
   margin: 0;
   text-align: center;
 
 
   .contact-github {
     padding: 1%;
+
+
+    #github{
+      color: $charcoal;
+    }
   }
 
 
   .contact-linkedin {
     padding: 1%;
+
+
+    #linkedin{
+      color: $charcoal;
+    }
   }
 
 
   .contact-email {
     padding: 1%;
+
+
+    #email{
+      color: $charcoal;
+    }
   }
 }
