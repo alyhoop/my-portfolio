@@ -20,8 +20,9 @@ body {
   font: 100% $font-stack;
   margin: 0;
   text-align: center;
-  background-image: url('/trees.jpg');
-  background-size: 50%;
+  background-image: url('/tile.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
   opacity: 0.8;
   animation-duration: 3s;
   animation-name: slidein;
