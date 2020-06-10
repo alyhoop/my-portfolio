@@ -5,12 +5,12 @@ class Header extends Component{
   render(){
     return (
       <div className="landing">
-        <span className="landing-title">
-          Hi there, I'm Alyssa Hooper;
-        </span>
-        <br/>
-        <span className="landing-about"> I'm an aspiring junior developer!
-        </span>
+          <span className="landing-title">
+            Hi there, I'm Alyssa Hooper;
+          </span>
+          <br/>
+          <span className="landing-about"> I'm an aspiring junior developer!
+          </span>
       </div>
     );
   }
