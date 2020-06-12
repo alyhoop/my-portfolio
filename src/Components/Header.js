@@ -4,7 +4,7 @@ import '../SCSS/Header.scss';
 class Header extends Component{
   render(){
     return (
-      <div className="landing">
+      <div className="landing flex">
           <span className="landing-title">
             Hi there, I'm Alyssa Hooper;
           </span>
