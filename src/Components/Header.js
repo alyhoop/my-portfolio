@@ -4,13 +4,10 @@ import '../SCSS/Header.scss';
 class Header extends Component{
   render(){
     return (
-      <div className="container-fluid landing flex">
-          <span className="landing-title">
-            Hi there, I'm Alyssa Hooper;
-          </span>
-          <br/>
-          <span className="landing-about"> I'm an aspiring junior developer!
-          </span>
+      <div className="container-fluid landing flex row justify-content-center">
+          <div className="landing-title row">
+            I'm Alyssa Hooper; an aspiring junior developer.
+          </div>
       </div>
     );
   }
