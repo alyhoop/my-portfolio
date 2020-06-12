@@ -1,4 +1,4 @@
-import React, { Component} from 'react'
+import React, { Component } from 'react';
 import '../SCSS/Portfolio.scss'
 
 class Portfolio extends Component {
@@ -12,5 +12,6 @@ class Portfolio extends Component {
     );
   }
 }
+
 
 export default Portfolio;
