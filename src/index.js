@@ -11,9 +11,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
+    <Navbar />
     <Header />
     <Portfolio />
-    <Navbar />
     <Contact />
   </React.StrictMode>,
   document.getElementById('root')
