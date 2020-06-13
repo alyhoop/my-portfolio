@@ -8,7 +8,7 @@ class Portfolio extends Component {
       <div className="portfolio">
         <CardDeck>
         <Card>
-          <Card.Img variant="top" src="https://picsum.photos/100/100" />
+          <Card.Img variant="top" src="./tile.jpg" />
           <Card.Body>
             <Card.Title>Project</Card.Title>
             <Card.Text>
@@ -21,7 +21,7 @@ class Portfolio extends Component {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="https://picsum.photos/100/100" />
+          <Card.Img variant="top" src="./tile.jpg" />
           <Card.Body>
             <Card.Title>Project</Card.Title>
             <Card.Text>
@@ -34,7 +34,7 @@ class Portfolio extends Component {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="https://picsum.photos/100/100" />
+          <Card.Img variant="top" src="./tile.jpg" />
           <Card.Body>
             <Card.Title>Project</Card.Title>
             <Card.Text>

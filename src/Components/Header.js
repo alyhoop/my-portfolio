@@ -5,7 +5,7 @@ class Header extends Component{
   render(){
     return (
       <div className="container-fluid landing flex row justify-content-center">
-          <div className="landing-title row">
+          <div className="title row">
             I'm Alyssa Hooper; an aspiring junior developer.
           </div>
       </div>
