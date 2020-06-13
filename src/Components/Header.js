@@ -6,7 +6,14 @@ class Header extends Component{
     return (
       <div className="landing flex row justify-content-center">
           <div className="title row">
-            I'm Alyssa Hooper; an aspiring junior developer.
+            <p>
+              Alyssa Hooper
+            </p>
+          </div>
+          <div className="job row">
+            <p>
+              aspiring junior developer
+            </p>
           </div>
       </div>
     );

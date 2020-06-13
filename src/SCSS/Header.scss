@@ -3,9 +3,17 @@
 
 .landing {
   font: 100% $font-stack;
+  font-size: 50px;
   background-color: $onyx;
-  color: $nickel;
+  color: $light-gray;
   margin: 0;
   padding: 20%;
   text-align: center;
+}
+
+
+.job {
+  font-size: 30px;
+  color: $nickel;
+  padding: 10%;
 }
