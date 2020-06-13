@@ -17,7 +17,7 @@ class Portfolio extends Component {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <Button variant="primary">Go somewhere</Button>
           </Card.Footer>
         </Card>
         <Card>
@@ -30,7 +30,7 @@ class Portfolio extends Component {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <Button variant="primary">Go somewhere</Button>
           </Card.Footer>
         </Card>
         <Card>
@@ -44,7 +44,7 @@ class Portfolio extends Component {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <Button variant="primary">Go somewhere</Button>
           </Card.Footer>
         </Card>
         </CardDeck>
