@@ -24,22 +24,21 @@ render() {
   return (
     <Router>
       <MDBContainer>
-        <MDBNavbar color="amber lighten-4" style={{ marginTop: '20px' }} light>
+        <MDBNavbar className="navbar" style={{ marginTop: '20px' }}>
           <MDBContainer>
             <MDBNavbarBrand>
-              MDBNavbar
             </MDBNavbarBrand>
             <MDBHamburgerToggler color="#d3531a" id="hamburger1" onClick={()=> this.toggleSingleCollapse('collapse1')} />
               <MDBCollapse isOpen={this.state.collapse1} navbar>
                 <MDBNavbarNav left>
                   <MDBNavItem active>
-                    <MDBNavLink to="#!">Home</MDBNavLink>
+                    <MDBNavLink to="#">Home</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#!">Link</MDBNavLink>
+                    <MDBNavLink to="#Portfolio">Portfolio</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#!">Profile</MDBNavLink>
+                    <MDBNavLink to="#Contact">Contact</MDBNavLink>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>
