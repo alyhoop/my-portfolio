@@ -23,7 +23,7 @@ toggleSingleCollapse = collapseId => {
 render() {
   return (
     <Router>
-      <MDBContainer>
+
         <MDBNavbar
           color="bg-dark"
           style={{  }}
@@ -47,7 +47,7 @@ render() {
               </MDBCollapse>
           </MDBContainer>
         </MDBNavbar>
-      </MDBContainer>
+
     </Router>
     );
   }
