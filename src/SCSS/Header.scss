@@ -13,8 +13,8 @@
 
 
 .title {
-  -webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-          animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-left 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-left 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 
@@ -44,10 +44,9 @@
   font-size: 30px;
   color: $nickel;
   padding: 10%;
-  -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-right 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-
 
 @-webkit-keyframes slide-right {
   0% {
