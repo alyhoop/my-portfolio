@@ -24,7 +24,7 @@ render() {
   return (
     <Router>
       <MDBContainer>
-        <MDBNavbar className="navbar" style={{ marginTop: '2px' }}>
+        <MDBNavbar className="navbar" style={{ margin: '2px' }}>
           <MDBContainer>
             <MDBNavbarBrand>
             </MDBNavbarBrand>
