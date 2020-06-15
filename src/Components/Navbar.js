@@ -26,7 +26,7 @@ render() {
       <MDBContainer>
         <MDBNavbar
           color="bg-dark"
-          style={{ margin: '2px' }}
+          style={{  }}
         >
           <MDBContainer>
             <MDBNavbarBrand>
