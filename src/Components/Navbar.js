@@ -23,31 +23,29 @@ toggleSingleCollapse = collapseId => {
 render() {
   return (
     <Router>
-
-        <MDBNavbar
-          color="bg-dark"
-          style={{  }}
-        >
-          <MDBContainer>
-            <MDBNavbarBrand>
-            </MDBNavbarBrand>
-            <MDBHamburgerToggler color="#6c757dff" id="hamburger1" onClick={()=> this.toggleSingleCollapse('collapse1')} />
-              <MDBCollapse isOpen={this.state.collapse1} navbar>
-                <MDBNavbarNav left>
-                  <MDBNavItem active>
-                    <MDBNavLink to="#">Home</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#Portfolio">Portfolio</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to="#Contact">Contact</MDBNavLink>
-                  </MDBNavItem>
-                </MDBNavbarNav>
-              </MDBCollapse>
-          </MDBContainer>
-        </MDBNavbar>
-
+      <MDBNavbar
+        color="bg-dark"
+        style={{  }}
+      >
+        <MDBContainer>
+          <MDBNavbarBrand>
+          </MDBNavbarBrand>
+          <MDBHamburgerToggler color="#6c757dff" id="hamburger1" onClick={()=> this.toggleSingleCollapse('collapse1')} />
+            <MDBCollapse isOpen={this.state.collapse1} navbar>
+              <MDBNavbarNav left>
+                <MDBNavItem active>
+                  <MDBNavLink to="#">Home</MDBNavLink>
+                </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink to="#Portfolio">Portfolio</MDBNavLink>
+                </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink to="#Contact">Contact</MDBNavLink>
+                </MDBNavItem>
+              </MDBNavbarNav>
+            </MDBCollapse>
+        </MDBContainer>
+      </MDBNavbar>
     </Router>
     );
   }
