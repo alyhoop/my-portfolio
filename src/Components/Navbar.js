@@ -25,7 +25,6 @@ render() {
     <Router>
       <MDBNavbar
         color="bg-dark"
-        style={{  }}
       >
         <MDBContainer>
           <MDBNavbarBrand>
