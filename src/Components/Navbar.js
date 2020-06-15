@@ -43,13 +43,13 @@ render() {
                 <MDBNavItem
                 active
                 >
-                  <MDBNavLink to="#">Home</MDBNavLink>
+                  <MDBNavLink className="navbar" to="#">Home</MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink to="#Portfolio">Portfolio</MDBNavLink>
+                  <MDBNavLink className="navbar" to="#Portfolio">Portfolio</MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink to="#Contact">Contact</MDBNavLink>
+                  <MDBNavLink className="navbar"to="#Contact">Contact</MDBNavLink>
                 </MDBNavItem>
               </MDBNavbarNav>
             </MDBCollapse>
