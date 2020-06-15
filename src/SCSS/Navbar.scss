@@ -4,5 +4,10 @@
 .navbar {
   font: 100% $font-stack;
   margin: 0;
-  text-align: center;
+  color: $nickel;
+
+
+  :hover{
+    color: $cadet-blue-crayola;
+  }
 }
