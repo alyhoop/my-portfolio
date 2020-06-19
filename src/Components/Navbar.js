@@ -37,19 +37,17 @@ render() {
             onClick={()=> this.toggleSingleCollapse('collapse1')}
           />
             <MDBCollapse isOpen={this.state.collapse1} navbar>
-              <MDBNavbarNav
-                left
-               >
+              <MDBNavbarNav>
                 <MDBNavItem
                 active
                 >
-                  <MDBNavLink className="navbar" to="#">Home</MDBNavLink>
+                  <MDBNavLink className="navbar navbar-item" to="#">Home</MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink className="navbar" to="#Portfolio">Portfolio</MDBNavLink>
+                  <MDBNavLink className="navbar navbar-item" to="#Portfolio">Portfolio</MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink className="navbar"to="#Contact">Contact</MDBNavLink>
+                  <MDBNavLink className="navbar navbar-item"to="#Contact">Contact</MDBNavLink>
                 </MDBNavItem>
               </MDBNavbarNav>
             </MDBCollapse>

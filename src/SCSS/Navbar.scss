@@ -10,4 +10,10 @@
   :hover{
     color: $cadet-blue-crayola;
   }
+
+
+  .navbar-item {
+    justify-content: flex-end;
+    border-radius: 20px;
+  }
 }
