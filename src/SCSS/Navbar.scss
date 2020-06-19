@@ -5,6 +5,7 @@
   font: 100% $font-stack;
   margin: 0;
   color: $nickel;
+  box-sizing: content-box;
 
 
   :hover{
@@ -14,6 +15,5 @@
 
   .navbar-item {
     justify-content: flex-end;
-    border-radius: 20px;
   }
 }
