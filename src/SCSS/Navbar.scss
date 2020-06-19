@@ -8,12 +8,13 @@
   box-sizing: content-box;
 
 
-  :hover{
-    color: $cadet-blue-crayola;
-  }
-
-
   .navbar-item {
     justify-content: flex-end;
+    padding: 10px;
+
+
+    // :hover{
+    //   color: $cadet-blue-crayola;
+    // }
   }
 }
