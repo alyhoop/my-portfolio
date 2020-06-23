@@ -14,24 +14,18 @@ class Portfolio extends Component {
             <Card.Text>
               This is a wider card with supporting text below as a natural lead-in to
               additional content. This content is a little bit longer.
+              <Button
+                variant="secondary"
+                className="button">
+                Project
+              </Button>
+              <Button
+                variant="secondary"
+                className="button">
+                Code
+              </Button>
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <Button variant="secondary">Go somewhere</Button>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="./tile.jpg" />
-          <Card.Body>
-            <Card.Title>Project</Card.Title>
-            <Card.Text>
-              This card has supporting text below as a natural lead-in to additional
-              content.{' '}
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <Button variant="secondary">Go somewhere</Button>
-          </Card.Footer>
         </Card>
         <Card>
           <Card.Img variant="top" src="./tile.jpg" />
@@ -39,13 +33,39 @@ class Portfolio extends Component {
             <Card.Title>Project</Card.Title>
             <Card.Text>
               This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to
-              show that equal height action.
+              additional content. This content is a little bit longer.
+              <Button
+                variant="secondary"
+                className="button">
+                Project
+              </Button>
+              <Button
+                variant="secondary"
+                className="button">
+                Code
+              </Button>
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <Button variant="secondary">Go somewhere</Button>
-          </Card.Footer>
+        </Card>
+        <Card>
+          <Card.Img variant="top" src="./tile.jpg" />
+          <Card.Body>
+            <Card.Title>Project</Card.Title>
+            <Card.Text>
+              This is a wider card with supporting text below as a natural lead-in to
+              additional content. This content is a little bit longer.
+              <Button
+                variant="secondary"
+                className="button">
+                Project
+              </Button>
+              <Button
+                variant="secondary"
+                className="button">
+                Code
+              </Button>
+            </Card.Text>
+          </Card.Body>
         </Card>
         </CardDeck>
       </div>

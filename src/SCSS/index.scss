@@ -15,12 +15,14 @@ $raisin-black: #212529ff;
 
 $font-stack: 'Barlow Condensed', sans-serif;
 
+* {
+  background-color: $onyx;
+}
+
 
 body {
   font: 100% $font-stack;
-  margin: 0;
   text-align: center;
-  background-color: $onyx;
-  height: 100%;
-  width: 100%;
+  margin: 0;
+  padding: 0;
 }
