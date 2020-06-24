@@ -7,7 +7,7 @@ class Portfolio extends Component {
     return(
       <div className="portfolio">
         <CardDeck>
-        <Card>
+        <Card style={{flex:1, backgroundColor:'#495057ff'}}>
           <Card.Img variant="top" src="./tile.jpg" />
           <Card.Body>
             <Card.Title>Project</Card.Title>
@@ -15,11 +15,13 @@ class Portfolio extends Component {
               This is a wider card with supporting text below as a natural lead-in to
               additional content. This content is a little bit longer.
               <Button
+                style={{backgroundColor:'#343a40ff'}}
                 variant="secondary"
                 className="button">
                 Project
               </Button>
               <Button
+                style={{backgroundColor:'#343a40ff'}}
                 variant="secondary"
                 className="button">
                 Code
@@ -27,7 +29,7 @@ class Portfolio extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+        <Card style={{flex:1, backgroundColor:'#495057ff'}}>
           <Card.Img variant="top" src="./tile.jpg" />
           <Card.Body>
             <Card.Title>Project</Card.Title>
@@ -35,11 +37,13 @@ class Portfolio extends Component {
               This is a wider card with supporting text below as a natural lead-in to
               additional content. This content is a little bit longer.
               <Button
+                style={{backgroundColor:'#343a40ff'}}
                 variant="secondary"
                 className="button">
                 Project
               </Button>
               <Button
+                style={{backgroundColor:'#343a40ff'}}
                 variant="secondary"
                 className="button">
                 Code
@@ -47,7 +51,7 @@ class Portfolio extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+        <Card style={{flex:1, backgroundColor:'#495057ff'}}>
           <Card.Img variant="top" src="./tile.jpg" />
           <Card.Body>
             <Card.Title>Project</Card.Title>
@@ -55,11 +59,13 @@ class Portfolio extends Component {
               This is a wider card with supporting text below as a natural lead-in to
               additional content. This content is a little bit longer.
               <Button
+                style={{backgroundColor:'#343a40ff'}}
                 variant="secondary"
                 className="button">
                 Project
               </Button>
               <Button
+                style={{backgroundColor:'#343a40ff'}}
                 variant="secondary"
                 className="button">
                 Code
