@@ -49,6 +49,9 @@ render() {
                 <MDBNavItem>
                   <MDBNavLink className="navbar navbar-item navbar-item-contact"to="#Contact">Contact</MDBNavLink>
                 </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink className="navbar navbar-item navbar-item-resume"to="#Resume">Resume</MDBNavLink>
+                </MDBNavItem>
               </MDBNavbarNav>
             </MDBCollapse>
         </MDBContainer>
