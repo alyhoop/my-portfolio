@@ -22,3 +22,10 @@
     border-radius: 5em;
   }
 }
+
+
+@media all and (max-device-width: 640px){
+    .navbar {
+      width: 90%;
+    }
+}
