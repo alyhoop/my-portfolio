@@ -3,16 +3,35 @@
 
 .landing {
   font: 100% $font-stack;
-  font-size: 3.5vw;
+  font-size: 10em;
   background-color: $onyx;
   color: $light-gray;
-  margin: 0;
-  padding: 25%;
-  text-align: center;
+  margin-top: 5%;
+  padding: 10%;
+}
+
+
+@media all and (max-device-width: 720px){
+    .landing {
+        font-size: 1em;
+    }
+}
+
+@media all and (max-device-width: 640px){
+    .landing {
+        font-size: 2em;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    .landing {
+        font-size: 1em;
+    }
 }
 
 
 .title {
+  font-size: 100%;
   -webkit-animation: slide-left 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
           animation: slide-left 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -41,9 +60,9 @@
 
 
 .job {
-  font-size: 30px;
+  font-size: 40%;
   color: $nickel;
-  padding: 10%;
+  padding: 5%;
   -webkit-animation: slide-right 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-right 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -66,5 +85,46 @@
   100% {
     -webkit-transform: translateX(100px);
             transform: translateX(100px);
+  }
+}
+
+.scroll-arrow {
+  height: 80%;
+  width: 80%;
+  text-align: center;
+}
+
+
+.bounce {
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation: bounce 3.6s ease infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  5.55556% {
+    transform: translateY(0);
+  }
+  11.11111% {
+    transform: translateY(0);
+  }
+  22.22222% {
+    transform: translateY(-15px);
+  }
+  27.77778% {
+    transform: translateY(0);
+  }
+  33.33333% {
+    transform: translateY(-15px);
+  }
+  44.44444% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
