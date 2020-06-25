@@ -1,25 +1,26 @@
 @import './index.scss';
 
-
-.navbar {
-  font: 100% $font-stack;
-  margin: 0;
-  background-color: $onyx;
-  color: $nickel;
-  box-sizing: content-box;
-  width: 100%;
-
-
-  :hover{
-    color: $cadet-blue-crayola;
-  }
+@media all {
+  .navbar {
+    font: 100% $font-stack;
+    margin: 0;
+    background-color: $onyx;
+    color: $nickel;
+    box-sizing: content-box;
+    width: 100%;
 
 
-  .navbar-item {
-    justify-content: space-around;
-    margin-left: 49%;
-    padding: 1em;
-    border-radius: 5em;
+    :hover{
+      color: $cadet-blue-crayola;
+    }
+
+
+    .navbar-item {
+      justify-content: space-around;
+      margin-left: 49%;
+      padding: 1em;
+      border-radius: 5em;
+    }
   }
 }
 

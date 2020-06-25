@@ -113,11 +113,22 @@
   }
 }
 
+@media all and (max-device-width: 1200px){
+  .landing {
+    font-size: 3em;
+    padding: 50%;
+  }
+
+  .scroll-arrow {
+    margin: 30%;
+  }
+}
+
 
 @media all and (max-device-width: 720px){
     .landing {
       font-size: 3em;
-      margin: 20%;
+      margin: 10%;
       padding: 50%;
     }
 }
@@ -125,8 +136,9 @@
 @media all and (max-device-width: 640px){
     .landing {
       font-size: 3em;
-      margin: 20%;
+      margin: 10%;
       padding: 50%;
+      text-align: -webkit-center;
     }
 
 
@@ -138,7 +150,7 @@
 @media all and (max-device-width: 320px){
     .landing {
       font-size: 3em;
-      margin: 20%;
+      margin: 10%;
       padding: 50%;
     }
 }
