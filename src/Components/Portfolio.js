@@ -8,7 +8,12 @@ class Portfolio extends Component {
       <div className="portfolio">
         <CardDeck>
         <Card style={{flex:1, backgroundColor:'#495057ff'}}>
-          <Card.Img variant="top" src="./tile.jpg" />
+          <Card.Img
+            variant="top"
+            src="./Portfolio.jpg"
+            width="40%"
+            height="60%"
+          />
           <Card.Body>
             <Card.Title>Portfolio</Card.Title>
             <Card.Text>
@@ -24,18 +29,26 @@ class Portfolio extends Component {
                 using responsive design techniques.
               </p>
               <div className="button flex-container">
+              <a href="https://github.com/alyhoop/my-portfolio">
                 <Button
                   style={{backgroundColor:'#343a40ff'}}
                   variant="secondary"
                 >
                   Code
                 </Button>
+              </a>
               </div>
             </Card.Text>
           </Card.Body>
         </Card>
         <Card style={{flex:1, backgroundColor:'#495057ff'}}>
-          <Card.Img variant="top" src="./tile.jpg" />
+          <Card.Img
+            className="img"
+            variant="top"
+            src="./Business.jpg"
+            width="40%"
+            height="60%"
+          />
           <Card.Body>
             <Card.Title>Business Page Reformat</Card.Title>
             <Card.Text>
@@ -47,28 +60,35 @@ class Portfolio extends Component {
             </p>
             <p>
               Solution: Bootstrap was used to dynamically re-style this page. Hard
-              coding values was avoided to accomodate varying viewports and this 
+              coding values was avoided to accomodate varying viewports and this
               library was already in use on this website.
             </p>
             <div className="button flex-container">
+            <a href="http://www.shskincare.com/">
               <Button
                 style={{backgroundColor:'#343a40ff'}}
                 variant="secondary"
                 className="button">
                 Project
               </Button>
+            </a>
+            <a href="https://github.com/shskincare/shskincare.github.io">
               <Button
                 style={{backgroundColor:'#343a40ff'}}
                 variant="secondary"
                 className="button">
                 Code
               </Button>
+            </a>
             </div>
             </Card.Text>
           </Card.Body>
         </Card>
         <Card style={{flex:1, backgroundColor:'#495057ff'}}>
-          <Card.Img variant="top" src="./tile.jpg" />
+          <Card.Img
+            variant="top"
+            src="./tile.jpg"
+          />
           <Card.Body>
             <Card.Title>Vue Boxes</Card.Title>
             <Card.Text>

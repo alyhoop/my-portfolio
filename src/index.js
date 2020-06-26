@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import Header from './Components/Header';
 import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
+import Resume from './Components/Resume';
 import * as serviceWorker from './serviceWorker';
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -14,6 +15,7 @@ ReactDOM.render(
     <Navbar />
     <Header />
     <Portfolio />
+    <Resume />
     <Contact />
   </React.StrictMode>,
   document.getElementById('root')
