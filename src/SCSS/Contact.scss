@@ -50,4 +50,19 @@
       }
     }
   }
+
+
+  .contact-resume {
+    padding: 1%;
+
+
+    #resume{
+      color: $nickel;
+
+
+      :hover{
+        color: $cadet-blue-crayola;
+      }
+    }
+  }
 }

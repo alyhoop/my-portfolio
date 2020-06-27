@@ -14,7 +14,7 @@ class Header extends Component{
           </div>
           <div className="job row">
             <p>
-              lifelong learner, aspiring junior front-end developer
+              lifelong learner; aspiring junior front-end developer
             </p>
           </div>
           <br/>

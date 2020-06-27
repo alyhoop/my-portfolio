@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import '../SCSS/Contact.scss';
 
@@ -33,6 +33,15 @@ class Contact extends Component {
               icon={faEnvelope}
               size="2x"
               id="email"
+            />
+          </a>
+        </span>
+        <span className="contact-resume">
+          <a href="./AlyssaHooperResume.pdf">
+            <FontAwesomeIcon
+              icon={faFile}
+              size="2x"
+              id="resume"
             />
           </a>
         </span>
