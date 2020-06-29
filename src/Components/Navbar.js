@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBCollapse, MDBContainer,
 MDBHamburgerToggler } from 'mdbreact';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import '../SCSS/Navbar.scss';
+
 
 class Navbar extends Component {
 state = {
@@ -41,16 +42,19 @@ render() {
                 <MDBNavItem
                 active
                 >
-                  <MDBNavLink className="navbar navbar-item navbar-item-home" to="#">Home</MDBNavLink>
+                <Link>
+                <MDBNavLink className="navbar navbar-item navbar-item-home" to="/">Home</MDBNavLink>
+                </Link>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink className="navbar navbar-item navbar-item-portfolio" to="#Portfolio">Portfolio</MDBNavLink>
+                <Link>
+                  <MDBNavLink className="navbar navbar-item navbar-item-portfolio" to="/Portfolio">Portfolio</MDBNavLink>
+                </Link>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink className="navbar navbar-item navbar-item-contact"to="#Contact">Contact</MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink className="navbar navbar-item navbar-item-resume"to="#Resume">Resume</MDBNavLink>
+                <Link>
+                  <MDBNavLink className="navbar navbar-item navbar-item-contact" to="/Contact">Contact</MDBNavLink>
+                </Link>
                 </MDBNavItem>
               </MDBNavbarNav>
             </MDBCollapse>

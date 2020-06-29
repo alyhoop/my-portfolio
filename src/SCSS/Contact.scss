@@ -11,12 +11,27 @@
     padding: 1%;
 
 
-    #github{
+    #github {
       color: $nickel;
 
 
-      :hover{
+      :link {
+        color: $nickel;
+      }
+
+
+      :visited {
+        color: $charcoal;
+      }
+
+
+      :hover {
         color: $cadet-blue-crayola;
+      }
+
+
+      :active {
+        color: $gainsboro;
       }
     }
   }
@@ -26,12 +41,27 @@
     padding: 1%;
 
 
-    #linkedin{
+    #linkedin {
       color: $nickel;
 
 
-      :hover{
+      :link {
+        color: $nickel;
+      }
+
+
+      :visited {
+        color: $charcoal;
+      }
+
+
+      :hover {
         color: $cadet-blue-crayola;
+      }
+
+
+      :active {
+        color: $gainsboro;
       }
     }
   }
@@ -41,12 +71,27 @@
     padding: 1%;
 
 
-    #email{
+    #email {
       color: $nickel;
 
 
-      :hover{
+      :link {
+        color: $nickel;
+      }
+
+
+      :visited {
+        color: $charcoal;
+      }
+
+
+      :hover {
         color: $cadet-blue-crayola;
+      }
+
+
+      :active {
+        color: $gainsboro;
       }
     }
   }
@@ -56,12 +101,27 @@
     padding: 1%;
 
 
-    #resume{
+    #resume {
       color: $nickel;
 
 
-      :hover{
+      :link {
+        color: $nickel;
+      }
+
+
+      :visited {
+        color: $charcoal;
+      }
+
+
+      :hover {
         color: $cadet-blue-crayola;
+      }
+
+
+      :active {
+        color: $gainsboro;
       }
     }
   }

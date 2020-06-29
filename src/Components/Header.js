@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../SCSS/Header.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons';
+
 
 class Header extends Component{
   render(){
@@ -16,14 +15,6 @@ class Header extends Component{
             <p>
               lifelong learner; aspiring junior front-end developer
             </p>
-          </div>
-          <br/>
-          <div className="scroll-arrow wrap bounce">
-            <FontAwesomeIcon
-              icon={faAngleDoubleDown}
-              size="xs"
-              id="scroll-arrow"
-            />
           </div>
       </div>
     );

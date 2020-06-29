@@ -8,7 +8,7 @@ import '../SCSS/Contact.scss';
 class Contact extends Component {
   render(){
     return(
-      <div className="container-fluid contact p-3 my-3">
+      <div className="container-fluid contact p-3 my-3 fixed-bottom">
         <span className="contact-github">
           <a href="https://github.com/alyhoop">
             <FontAwesomeIcon
