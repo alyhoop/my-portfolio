@@ -11,8 +11,6 @@ class Portfolio extends Component {
           <Card.Img
             variant="top"
             src="./Portfolio.jpg"
-            width="40%"
-            height="60%"
           />
           <Card.Body>
             <Card.Title>Portfolio</Card.Title>
@@ -33,6 +31,7 @@ class Portfolio extends Component {
                 <Button
                   style={{backgroundColor:'#343a40ff'}}
                   variant="secondary"
+                  className="button-1"
                 >
                   Code
                 </Button>
@@ -46,8 +45,6 @@ class Portfolio extends Component {
             className="img"
             variant="top"
             src="./Business.jpg"
-            width="40%"
-            height="60%"
           />
           <Card.Body>
             <Card.Title>Business Page Reformat</Card.Title>
@@ -68,7 +65,7 @@ class Portfolio extends Component {
               <Button
                 style={{backgroundColor:'#343a40ff'}}
                 variant="secondary"
-                className="button">
+                className="button-2">
                 Project
               </Button>
             </a>
@@ -76,7 +73,7 @@ class Portfolio extends Component {
               <Button
                 style={{backgroundColor:'#343a40ff'}}
                 variant="secondary"
-                className="button">
+                className="button-2">
                 Code
               </Button>
             </a>
@@ -87,30 +84,27 @@ class Portfolio extends Component {
         <Card style={{flex:1, backgroundColor:'#495057ff'}}>
           <Card.Img
             variant="top"
-            src="./tile.jpg"
+            src="./list.jpg"
           />
           <Card.Body>
-            <Card.Title>Vue Boxes</Card.Title>
+            <Card.Title>Modern List</Card.Title>
             <Card.Text>
             <p>
-              My role: Contributor
+              My role: Creator
             </p>
             <p>
-              Problem: An API will be sending varying lengths of information
-              inside boxes, so they needed to be styled reponsively to accomodate
-              those changes.
+              Problem: Creating a styled list
             </p>
             <p>
-              Solution: Vue's built-in breakpoints were utilized to achieve
-              consistency within this project, rather than importing a library
-              such as BootstrapVue that might slow loading time.
+              Solution: I used Dribbble inspired styling for a modern check list,
+              that dynamically greets the user based on time of day.
             </p>
             <div className="button flex-container">
               <Button
                 style={{backgroundColor:'#343a40ff'}}
                 variant="secondary"
-                className="button">
-                Project
+                className="button-3">
+                Code
               </Button>
             </div>
             </Card.Text>

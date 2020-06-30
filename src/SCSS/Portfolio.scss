@@ -4,7 +4,7 @@
 .portfolio {
   font: 100% $font-stack;
   margin: 0;
-  padding: 10%;
+  padding: 20%;
   width: 100%;
   color: $light-gray;
   border-color: $nickel;
@@ -14,15 +14,26 @@
 .button {
   margin: 5%;
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
+
+
+  .button-1 {
+    margin-top: 30%;
+  }
+
+
+  .button-3 {
+    margin-top: 30%;
+  }
 }
 
 
 p {
   color: $cadet-blue-crayola;
   text-align: justify;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.01em;
 }
 
 
