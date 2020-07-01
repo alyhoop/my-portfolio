@@ -100,12 +100,14 @@ class Portfolio extends Component {
               that dynamically greets the user based on time of day.
             </p>
             <div className="button flex-container">
+            <a href="https://github.com/alyhoop/project-3">
               <Button
                 style={{backgroundColor:'#343a40ff'}}
                 variant="secondary"
                 className="button-3">
                 Code
               </Button>
+            </a>
             </div>
             </Card.Text>
           </Card.Body>
