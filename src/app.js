@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import Header from './Components/Header';
 import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
+import Error from './Components/Error';
 import { Route, Switch } from 'react-router-dom'
 
 function App() {
