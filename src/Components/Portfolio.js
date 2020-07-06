@@ -19,7 +19,7 @@ class Portfolio extends Component {
                 My role: Creator
               </p>
               <p>
-                Problem: Wanting a responsive, modern SPA to display my progress.
+                Problem: Wanting a responsive, modern website to display my progress.
               </p>
               <p>
                 Solution: Researched top-rated designs on Dribbble and
@@ -109,6 +109,39 @@ class Portfolio extends Component {
               </Button>
             </a>
             </div>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card style={{flex:1, backgroundColor:'#495057ff'}}>
+          <Card.Img
+            variant="top"
+            src="./Menu.jpg"
+          />
+          <Card.Body>
+            <Card.Title>Menu Concept</Card.Title>
+            <Card.Text>
+              <p>
+                My role: Creator
+              </p>
+              <p>
+                Problem: Designing an asthetically pleasing menu concept to study
+                CSS Grid.
+              </p>
+              <p>
+                Solution: CSS Grid and Icons were used to style an organized
+                menu.
+              </p>
+              <div className="button flex-container">
+              <a href="https://codepen.io/alyhoop/pen/oNbowdb?editors=1100">
+                <Button
+                  style={{backgroundColor:'#343a40ff'}}
+                  variant="secondary"
+                  className="button-4"
+                >
+                  Project
+                </Button>
+              </a>
+              </div>
             </Card.Text>
           </Card.Body>
         </Card>

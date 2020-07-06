@@ -4,7 +4,7 @@
 .portfolio {
   font: 100% $font-stack;
   margin: 0;
-  padding: 20%;
+  padding: 5%;
   width: 100%;
   color: $light-gray;
   border-color: $nickel;
@@ -12,20 +12,19 @@
 
 
 .button {
-  margin: 5%;
   display: flex;
-  position: relative;
   align-items: center;
   justify-content: center;
-
-
-  .button-1 {
-    margin-top: 30%;
-  }
+  margin: 1%;
 
 
   .button-3 {
-    margin-top: 90%;
+    margin-top: 60%;
+  }
+
+
+  .button-4 {
+    margin-top: 45%;
   }
 }
 
