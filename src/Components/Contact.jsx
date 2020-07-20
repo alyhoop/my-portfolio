@@ -37,7 +37,7 @@ class Contact extends Component {
           </a>
         </span>
         <span className="contact-resume">
-          <a href="./AlyssaHooperResume.pdf">
+          <a href="./A_Hooper_Resume.pdf">
             <FontAwesomeIcon
               icon={faFile}
               size="2x"
