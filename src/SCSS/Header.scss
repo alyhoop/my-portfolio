@@ -14,6 +14,7 @@
 
   .title {
     font-size: 100%;
+    will-change: transform;
     animation: slide-left 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
 
@@ -32,6 +33,7 @@
     font-size: 40%;
     color: $nickel;
     padding: 5%;
+    will-change: transform;
     animation: slide-right 1.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
 
@@ -41,7 +43,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(100px);
+      transform: translatex(100px);
     }
   }
 }
