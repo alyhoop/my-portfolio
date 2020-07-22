@@ -6,6 +6,11 @@ import '../SCSS/Header.scss';
 class Header extends Component {
      render(){
        return (
+        /* <Transition in={this.state.in} timeout={150}>
+  {state => (
+    <MyComponent className={`fade fade-${state}`} />
+  )}
+</Transition>*/
          <div
            className="landing flex row justify-content-center"
            >
