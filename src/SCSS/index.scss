@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&display=swap');
-
 
 /* SCSS HEX */
 $cultured: #f8f9faff;
@@ -12,13 +10,11 @@ $charcoal: #495057ff;
 $onyx: #343a40ff;
 $raisin-black: #212529ff;
 
-
 $font-stack: 'Barlow Condensed', sans-serif;
 
 * {
   background-color: $onyx;
 }
-
 
 body {
   font: 100% $font-stack;
@@ -26,3 +22,8 @@ body {
   margin: 0;
   padding: 0;
 }
+
+@import './Header.scss';
+@import './Portfolio.scss';
+@import './Contact.scss';
+@import './Navbar.scss';

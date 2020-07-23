@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBCollapse, MDBContainer,
 MDBHamburgerToggler } from 'mdbreact';
-import '../SCSS/Navbar.scss';
-
 
 class Navbar extends Component {
 state = {

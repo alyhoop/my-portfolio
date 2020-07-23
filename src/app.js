@@ -1,5 +1,7 @@
 import React from "react"
 
+import './SCSS/index.scss';
+
 import Navbar from './Components/Navbar';
 import Header from './Components/Header';
 import Portfolio from './Components/Portfolio';

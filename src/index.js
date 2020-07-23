@@ -1,7 +1,6 @@
 import React from 'react';
 import App from './app';
 import ReactDOM from 'react-dom';
-import './SCSS/index.scss';
 import { BrowserRouter } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';

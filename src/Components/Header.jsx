@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import '../SCSS/index.scss';
-import '../SCSS/Header.scss';
-
 
 class Header extends Component {
      render(){

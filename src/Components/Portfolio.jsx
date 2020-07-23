@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Card, Button, CardDeck } from 'react-bootstrap';
-import '../SCSS/Portfolio.scss';
 
 class Portfolio extends Component {
   render(){
