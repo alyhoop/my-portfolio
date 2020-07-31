@@ -131,13 +131,13 @@ class Portfolio extends Component {
                 menu.
               </p>
               <div className="button flex-container">
-              <a href="https://codepen.io/alyhoop/pen/oNbowdb?editors=1100">
+              <a href="https://github.com/alyhoop/practice-scripts/tree/master/CSS%20Grid">
                 <Button
                   style={{backgroundColor:'#343a40ff'}}
                   variant="secondary"
                   className="button-4"
                 >
-                  Project
+                  Code
                 </Button>
               </a>
               </div>
