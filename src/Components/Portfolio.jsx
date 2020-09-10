@@ -131,6 +131,15 @@ class Portfolio extends Component {
                 menu.
               </p>
               <div className="button flex-container">
+              <a href="https://codepen.io/alyhoop/pen/BaKrqEL">
+                <Button
+                  style={{backgroundColor:'#343a40ff'}}
+                  variant="secondary"
+                  className="button-5"
+                >
+                  Project
+                </Button>
+              </a>
               <a href="https://github.com/alyhoop/practice-scripts/tree/master/CSS%20Grid">
                 <Button
                   style={{backgroundColor:'#343a40ff'}}
