@@ -7,6 +7,7 @@ import Header from './Components/Header';
 import Portfolio from './Components/Portfolio';
 import Contact from './Components/Contact';
 import Error from './Components/Error';
+import Footer from './Components/Footer';
 import { Route, Switch } from 'react-router-dom'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/contact" component={Contact} />
                 <Route component={Error} />
             </Switch>
+            <Footer />
         </main>
     )
 }
