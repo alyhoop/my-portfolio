@@ -1,5 +1,10 @@
-form {
+.col {
   margin: 10%;
   padding: 10%;
   font: 100% $font-stack;
+  color: $light-gray;
+}
+
+button {
+  color: $light-gray;
 }
