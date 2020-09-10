@@ -15,17 +15,17 @@ export default class Contact extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <div className="container-fluid contact p-3 my-3">
-        <FontAwesomeIcon
-          icon={faEnvelope}
-          size="2x"
-          id="email"
-        />
+      <div className="container contact p-3 my-3">
         <form
           onSubmit={this.submitForm}
           action="https://formspree.io/meqrydly"
           method="POST"
         >
+        <FontAwesomeIcon
+          icon={faEnvelope}
+          size="2x"
+          id="email"
+        />
           <label>Your Email:</label>
           <input type="email" name="email" />
           <label>Subject:</label>

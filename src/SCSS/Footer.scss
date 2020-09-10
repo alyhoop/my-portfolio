@@ -1,0 +1,100 @@
+.contact {
+  margin: 0;
+  text-align: center;
+
+  .contact-github {
+    padding: 1%;
+
+    #github {
+      color: $nickel;
+
+      :link {
+        color: $nickel;
+      }
+
+      :visited {
+        color: $charcoal;
+      }
+
+      :hover {
+        color: $cadet-blue-crayola;
+      }
+
+      :active {
+        color: $gainsboro;
+      }
+    }
+  }
+
+  .contact-linkedin {
+    padding: 1%;
+
+    #linkedin {
+      color: $nickel;
+
+      :link {
+        color: $nickel;
+      }
+
+      :visited {
+        color: $charcoal;
+      }
+
+      :hover {
+        color: $cadet-blue-crayola;
+      }
+
+      :active {
+        color: $gainsboro;
+      }
+    }
+  }
+
+  .contact-email {
+    padding: 1%;
+
+    #email {
+      color: $nickel;
+
+      :link {
+        color: $nickel;
+      }
+
+      :visited {
+        color: $charcoal;
+      }
+
+      :hover {
+        color: $cadet-blue-crayola;
+      }
+
+      :active {
+        color: $gainsboro;
+      }
+    }
+  }
+
+  .contact-resume {
+    padding: 1%;
+
+    #resume {
+      color: $nickel;
+
+      :link {
+        color: $nickel;
+      }
+
+      :visited {
+        color: $charcoal;
+      }
+
+      :hover {
+        color: $cadet-blue-crayola;
+      }
+
+      :active {
+        color: $gainsboro;
+      }
+    }
+  }
+}
