@@ -1,10 +1,51 @@
-form {
-  margin: 10%;
-  padding: 10%;
+button {
+  border: 1px solid $light-gray;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 100%;
+  padding: 8px 0px;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+  color: $light-gray;
+}
+
+button:hover {
+  color: $cadet-blue-crayola;
+  border: 1px solid $cadet-blue-crayola;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid $light-gray;
+  border-radius: 10px;
+  color: $light-gray;
+  //align-items: flex-start;
+}
+
+.input-message {
+  height: 20vh;
+  //align-items: flex-start;
+}
+
+h2 {
+  padding: 1em;
+}
+
+.contact-container {
   font: 100% $font-stack;
   color: $light-gray;
 }
 
-button {
-  color: $light-gray;
+.contact-container-col {
+  padding: 2%;
+}
+
+.contact-container-row {
+  padding: 1%;
+}
+
+#icon {
+  // padding: 2%;
+  // margin: 5%;
 }

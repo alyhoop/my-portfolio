@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faStackOverflow, faGalacticSenate } from '@fortawesome/free-brands-svg-icons';
 
 export default class Contact extends React.Component {
   constructor(props) {
@@ -17,33 +18,70 @@ export default class Contact extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <Container fluid>
+      <Container fluid className="contact-container">
+        <Row className="contact-container-col">
+          <h2>Contact Information</h2>
+        </Row>
         <Row>
-          <Col>
-            <form
-                onSubmit={this.submitForm}
-                action="https://formspree.io/meqrydly"
-                method="POST"
-              >
-              <label>Your Email:</label>
-              <input type="email" name="email" />
-              <label>Subject:</label>
-              <input type="text" name="subject" />
-              <label>Your Message:</label>
-              <input type="text" name="message" />
-              {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-              {status === "ERROR" && <p>Ooops! There was an error.</p>}
-            </form>
+          <Col className="contact-container-col">
+            <Row className="contact-container-row">
+              <p>
+                Find me:
+              </p>
+            </Row>
+            <Row className="contact-container-row">
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                size="md"
+                id="icon email-icon"
+              />
+              <span>alyssavladahooper@gmail.com</span>
+            </Row>
+            <Row className="contact-container-row">
+              <FontAwesomeIcon
+                icon={faStackOverflow}
+                size="md"
+                id="icon so-icon"
+              />
+              <a href="https://stackoverflow.com/users/13789454/alyssa-hooper">My StackOverflow</a>
+            </Row>
+            <Row className="contact-container-row">
+              <FontAwesomeIcon
+                icon={faGalacticSenate}
+                size="md"
+                id="icon galactic-icon"
+              />
+              <a href="https://www.codewars.com/users/alyhoop">My Codewars</a>
+            </Row>
           </Col>
-          <Col>
-            <FontAwesomeIcon
-              icon={faEnvelope}
-              size="2x"
-              id="contact email-icon"
-            />
-            <p>alyssavladahooper@gmail.com</p>
-            <a href="https://stackoverflow.com/users/13789454/alyssa-hooper">StackOverflow</a>
-            <a href="https://www.codewars.com/users/alyhoop">Codewars</a>
+          <Col className="contact-container-col">
+            <Row className="contact-container-row">
+              <p>
+                Send me a message here:
+              </p>
+            </Row>
+              <form
+                  onSubmit={this.submitForm}
+                  action="https://formspree.io/meqrydly"
+                  method="POST"
+                >
+              <Row className="contact-container-row">
+                <label>Your Email:</label>
+                <input type="email" name="email" />
+              </Row>
+              <Row className="contact-container-row">
+                <label>Subject:</label>
+                <input type="text" name="subject" />
+              </Row>
+              <Row className="contact-container-row">
+                <label>Your Message:</label>
+                <input type="text" name="message" className="input-message"/>
+              </Row>
+              <Row className="contact-container-row">
+                {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+                {status === "ERROR" && <p>Ooops! There was an error.</p>}
+              </Row>
+            </form>
           </Col>
         </Row>
       </Container>
