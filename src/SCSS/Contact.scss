@@ -52,3 +52,19 @@ svg {
   margin: 1%;
   color: $light-gray;
 }
+
+.icon-text:link {
+  color: $light-gray;
+}
+
+.icon-text:visited {
+  color: $light-gray;
+}
+
+.icon-text:hover {
+  color: $cadet-blue-crayola;
+}
+
+.icon-text:active {
+  color: $gainsboro;
+}
