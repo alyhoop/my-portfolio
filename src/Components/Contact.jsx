@@ -66,7 +66,7 @@ export default class Contact extends React.Component {
                 size="md"
                 id="icon email-icon"
               />
-              <span>alyssavladahooper@gmail.com</span>
+              <span className="icon-text">alyssavladahooper@gmail.com</span>
             </Row>
             <Row className="contact-container-row justify-content-center">
               <FontAwesomeIcon
@@ -74,7 +74,7 @@ export default class Contact extends React.Component {
                 size="md"
                 id="icon so-icon"
               />
-              <a href="https://stackoverflow.com/users/13789454/alyssa-hooper">My StackOverflow</a>
+              <a href="https://stackoverflow.com/users/13789454/alyssa-hooper" className="icon-text">My StackOverflow</a>
             </Row>
             <Row className="contact-container-row justify-content-center">
               <FontAwesomeIcon
@@ -82,7 +82,7 @@ export default class Contact extends React.Component {
                 size="md"
                 id="icon galactic-icon"
               />
-              <a href="https://www.codewars.com/users/alyhoop">My Codewars</a>
+              <a href="https://www.codewars.com/users/alyhoop" className="icon-text">My Codewars</a>
             </Row>
           </Col>
         </Row>

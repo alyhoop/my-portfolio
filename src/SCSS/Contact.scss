@@ -22,12 +22,16 @@ input {
   color: $light-gray;
 }
 
-.input-message {
-  height: 20vh;
-}
-
 h2 {
   padding: 1em;
+}
+
+svg {
+  margin: 1%;
+}
+
+.input-message {
+  height: 20vh;
 }
 
 .contact-container {
@@ -44,7 +48,7 @@ h2 {
   padding: 1%;
 }
 
-#icon {
-  // padding: 2%;
-  // margin: 5%;
+.icon-text {
+  margin: 1%;
+  color: $light-gray;
 }
