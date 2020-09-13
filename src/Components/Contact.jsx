@@ -26,38 +26,7 @@ export default class Contact extends React.Component {
           <Col className="contact-container-col">
             <Row className="contact-container-row">
               <p>
-                Find me:
-              </p>
-            </Row>
-            <Row className="contact-container-row">
-              <FontAwesomeIcon
-                icon={faEnvelope}
-                size="md"
-                id="icon email-icon"
-              />
-              <span>alyssavladahooper@gmail.com</span>
-            </Row>
-            <Row className="contact-container-row">
-              <FontAwesomeIcon
-                icon={faStackOverflow}
-                size="md"
-                id="icon so-icon"
-              />
-              <a href="https://stackoverflow.com/users/13789454/alyssa-hooper">My StackOverflow</a>
-            </Row>
-            <Row className="contact-container-row">
-              <FontAwesomeIcon
-                icon={faGalacticSenate}
-                size="md"
-                id="icon galactic-icon"
-              />
-              <a href="https://www.codewars.com/users/alyhoop">My Codewars</a>
-            </Row>
-          </Col>
-          <Col className="contact-container-col">
-            <Row className="contact-container-row">
-              <p>
-                Send me a message here:
+                Send me a message:
               </p>
             </Row>
               <form
@@ -83,6 +52,39 @@ export default class Contact extends React.Component {
               </Row>
             </form>
           </Col>
+        </Row>
+        <Row>
+        <Col className="contact-container-col">
+          <Row className="contact-container-row">
+            <p>
+              Find me:
+            </p>
+          </Row>
+          <Row className="contact-container-row">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              size="md"
+              id="icon email-icon"
+            />
+            <span>alyssavladahooper@gmail.com</span>
+          </Row>
+          <Row className="contact-container-row">
+            <FontAwesomeIcon
+              icon={faStackOverflow}
+              size="md"
+              id="icon so-icon"
+            />
+            <a href="https://stackoverflow.com/users/13789454/alyssa-hooper">My StackOverflow</a>
+          </Row>
+          <Row className="contact-container-row">
+            <FontAwesomeIcon
+              icon={faGalacticSenate}
+              size="md"
+              id="icon galactic-icon"
+            />
+            <a href="https://www.codewars.com/users/alyhoop">My Codewars</a>
+          </Row>
+        </Col>
         </Row>
       </Container>
     );
