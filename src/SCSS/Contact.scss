@@ -68,3 +68,13 @@ svg {
 .icon-text:active {
   color: $gainsboro;
 }
+
+@media all and (max-device-width: 640px){
+  .contact-container-col {
+    margin-bottom: 30%;
+  }
+
+  .contact-container-row {
+    padding: 1%;
+  }
+}
