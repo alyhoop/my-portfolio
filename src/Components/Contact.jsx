@@ -66,7 +66,7 @@ export default class Contact extends React.Component {
                 size="md"
                 id="icon email-icon"
               />
-              <span className="icon-text">alyssavladahooper@gmail.com</span>
+              <a className="icon-text" href="mailto:alyssavladahooper@gmail.com">alyssavladahooper@gmail.com</a>
             </Row>
             <Row className="contact-container-row justify-content-center">
               <FontAwesomeIcon
