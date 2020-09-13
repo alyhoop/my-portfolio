@@ -18,8 +18,8 @@ export default class Contact extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <Container fluid className="contact-container">
-        <Row className="contact-container-col">
+      <Container className="contact-container">
+        <Row className="contact-container-col justify-content-center">
           <h2>Contact Information</h2>
         </Row>
         <Row>
@@ -55,12 +55,12 @@ export default class Contact extends React.Component {
         </Row>
         <Row>
         <Col className="contact-container-col">
-          <Row className="contact-container-row">
+          <Row className="contact-container-row justify-content-center">
             <p>
-              Find me:
+              Reach me:
             </p>
           </Row>
-          <Row className="contact-container-row">
+          <Row className="contact-container-row justify-content-center">
             <FontAwesomeIcon
               icon={faEnvelope}
               size="md"
@@ -68,7 +68,7 @@ export default class Contact extends React.Component {
             />
             <span>alyssavladahooper@gmail.com</span>
           </Row>
-          <Row className="contact-container-row">
+          <Row className="contact-container-row justify-content-center">
             <FontAwesomeIcon
               icon={faStackOverflow}
               size="md"
@@ -76,7 +76,7 @@ export default class Contact extends React.Component {
             />
             <a href="https://stackoverflow.com/users/13789454/alyssa-hooper">My StackOverflow</a>
           </Row>
-          <Row className="contact-container-row">
+          <Row className="contact-container-row justify-content-center">
             <FontAwesomeIcon
               icon={faGalacticSenate}
               size="md"
