@@ -56,11 +56,6 @@ export default class Contact extends React.Component {
         <Row>
           <Col className="contact-container-col">
             <Row className="contact-container-row justify-content-center">
-              <p>
-                Reach me:
-              </p>
-            </Row>
-            <Row className="contact-container-row justify-content-center">
               <FontAwesomeIcon
                 icon={faEnvelope}
                 size="1x"
