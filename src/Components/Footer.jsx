@@ -1,12 +1,36 @@
 import React, { Component } from 'react';
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFile } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFile, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin, faStackOverflow, faGalacticSenate } from '@fortawesome/free-brands-svg-icons';
 
 class Footer extends Component {
      render(){
        return (
          <span className="fixed-bottom container-fluid contact p-3 my-3">
+          <Container>
+            <Col>
+             <FontAwesomeIcon
+               icon={faEnvelope}
+               size="1x"
+               id="icon email-icon"
+             />
+             <a className="icon-text" href="mailto:alyssavladahooper@gmail.com">alyssavladahooper@gmail.com</a>
+             <FontAwesomeIcon
+               icon={faStackOverflow}
+               size="1x"
+               id="icon so-icon"
+             />
+             <a href="https://stackoverflow.com/users/13789454/alyssa-hooper" className="icon-text">My StackOverflow</a>
+             <FontAwesomeIcon
+               icon={faGalacticSenate}
+               size="1x"
+               id="icon galactic-icon"
+             />
+             <a href="https://www.codewars.com/users/alyhoop" className="icon-text">My Codewars</a>
+             </Col>
+            </Container>
            <span className="contact-github">
              <a href="https://github.com/alyhoop">
                <FontAwesomeIcon

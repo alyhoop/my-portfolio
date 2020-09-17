@@ -29,10 +29,6 @@ h2 {
   padding: 10% 0 5% 0;
 }
 
-svg {
-  margin: 1.1% 1% 0 0;
-}
-
 .input-message {
   height: 20vh;
 }
@@ -48,27 +44,6 @@ svg {
 
 .contact-container-row-button {
   margin: 3% 0 1% 0;
-}
-
-.icon-text {
-  margin: 1%;
-  color: $light-gray;
-}
-
-.icon-text:link {
-  color: $light-gray;
-}
-
-.icon-text:visited {
-  color: $light-gray;
-}
-
-.icon-text:hover {
-  color: $cadet-blue-crayola;
-}
-
-.icon-text:active {
-  color: $gainsboro;
 }
 
 @media all and (max-device-width: 640px){

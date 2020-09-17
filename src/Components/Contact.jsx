@@ -2,9 +2,6 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faStackOverflow, faGalacticSenate } from '@fortawesome/free-brands-svg-icons';
 
 export default class Contact extends React.Component {
   constructor(props) {
@@ -21,34 +18,6 @@ export default class Contact extends React.Component {
       <Container className="contact-container">
         <Row className="contact-container-col justify-content-center">
           <h2>Contact Information</h2>
-        </Row>
-        <Row>
-          <Col className="contact-container-col">
-            <Row className="contact-container-row justify-content-center">
-              <FontAwesomeIcon
-                icon={faEnvelope}
-                size="1x"
-                id="icon email-icon"
-              />
-              <a className="icon-text" href="mailto:alyssavladahooper@gmail.com">alyssavladahooper@gmail.com</a>
-            </Row>
-            <Row className="contact-container-row justify-content-center">
-              <FontAwesomeIcon
-                icon={faStackOverflow}
-                size="1x"
-                id="icon so-icon"
-              />
-              <a href="https://stackoverflow.com/users/13789454/alyssa-hooper" className="icon-text">My StackOverflow</a>
-            </Row>
-            <Row className="contact-container-row justify-content-center">
-              <FontAwesomeIcon
-                icon={faGalacticSenate}
-                size="1x"
-                id="icon galactic-icon"
-              />
-              <a href="https://www.codewars.com/users/alyhoop" className="icon-text">My Codewars</a>
-            </Row>
-          </Col>
         </Row>
         <Row className="contact-container-row-form">
           <Col className="contact-container-col-form">

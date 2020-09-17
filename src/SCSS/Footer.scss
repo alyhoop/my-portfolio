@@ -98,3 +98,30 @@
     }
   }
 }
+
+.icon-text {
+  font: 100% $font-stack;
+  margin: 1%;
+  color: $light-gray;
+}
+
+.icon-text:link {
+  color: $light-gray;
+}
+
+.icon-text:visited {
+  color: $light-gray;
+}
+
+.icon-text:hover {
+  color: $cadet-blue-crayola;
+}
+
+.icon-text:active {
+  color: $gainsboro;
+}
+
+svg {
+  color: $cadet-blue-crayola;
+  margin: 1.1% 1% 0 0;
+}
