@@ -5,7 +5,6 @@ button {
   width: 100%;
   padding: 8px 0px;
   letter-spacing: 1px;
-  margin-bottom: 0.25em;
   color: $light-gray;
 }
 
@@ -43,8 +42,8 @@ svg {
   margin: 0 0 30% 0;
 }
 
-.contact-container-row {
-  padding: 1%;
+.contact-container-row-button {
+  margin: 3% 0 1% 0;
 }
 
 .icon-text {

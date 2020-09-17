@@ -74,7 +74,7 @@ export default class Contact extends React.Component {
                 <label>Your Message:</label>
                 <input type="text" name="message" className="input-message"/>
               </Row>
-              <Row className="contact-container-row">
+              <Row className="contact-container-row-button">
                 {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
                 {status === "ERROR" && <p>Ooops! There was an error.</p>}
               </Row>
