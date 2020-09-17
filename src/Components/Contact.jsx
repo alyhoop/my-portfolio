@@ -24,6 +24,34 @@ export default class Contact extends React.Component {
         </Row>
         <Row>
           <Col className="contact-container-col">
+            <Row className="contact-container-row justify-content-center">
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                size="1x"
+                id="icon email-icon"
+              />
+              <a className="icon-text" href="mailto:alyssavladahooper@gmail.com">alyssavladahooper@gmail.com</a>
+            </Row>
+            <Row className="contact-container-row justify-content-center">
+              <FontAwesomeIcon
+                icon={faStackOverflow}
+                size="1x"
+                id="icon so-icon"
+              />
+              <a href="https://stackoverflow.com/users/13789454/alyssa-hooper" className="icon-text">My StackOverflow</a>
+            </Row>
+            <Row className="contact-container-row justify-content-center">
+              <FontAwesomeIcon
+                icon={faGalacticSenate}
+                size="1x"
+                id="icon galactic-icon"
+              />
+              <a href="https://www.codewars.com/users/alyhoop" className="icon-text">My Codewars</a>
+            </Row>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="contact-container-col-form">
             <Row className="contact-container-row">
               <p>
                 Send me a message:
@@ -51,34 +79,6 @@ export default class Contact extends React.Component {
                 {status === "ERROR" && <p>Ooops! There was an error.</p>}
               </Row>
             </form>
-          </Col>
-        </Row>
-        <Row>
-          <Col className="contact-container-col">
-            <Row className="contact-container-row justify-content-center">
-              <FontAwesomeIcon
-                icon={faEnvelope}
-                size="1x"
-                id="icon email-icon"
-              />
-              <a className="icon-text" href="mailto:alyssavladahooper@gmail.com">alyssavladahooper@gmail.com</a>
-            </Row>
-            <Row className="contact-container-row justify-content-center">
-              <FontAwesomeIcon
-                icon={faStackOverflow}
-                size="1x"
-                id="icon so-icon"
-              />
-              <a href="https://stackoverflow.com/users/13789454/alyssa-hooper" className="icon-text">My StackOverflow</a>
-            </Row>
-            <Row className="contact-container-row justify-content-center">
-              <FontAwesomeIcon
-                icon={faGalacticSenate}
-                size="1x"
-                id="icon galactic-icon"
-              />
-              <a href="https://www.codewars.com/users/alyhoop" className="icon-text">My Codewars</a>
-            </Row>
           </Col>
         </Row>
       </Container>

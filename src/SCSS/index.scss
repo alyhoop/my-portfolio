@@ -21,8 +21,8 @@ $font-stack: 'Barlow Condensed', sans-serif;
 body {
   font: 100% $font-stack;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 
 @import './Header.scss';
