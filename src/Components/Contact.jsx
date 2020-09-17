@@ -22,9 +22,9 @@ export default class Contact extends React.Component {
         <Row className="contact-container-row-form">
           <Col className="contact-container-col-form">
             <Row className="contact-container-row">
-              <p>
+              <span className="span">
                 Send me a message:
-              </p>
+              </span>
             </Row>
               <form
                   onSubmit={this.submitForm}

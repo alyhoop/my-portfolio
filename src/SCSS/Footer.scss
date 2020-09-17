@@ -1,3 +1,7 @@
+* {
+  position: fixed-bottom;
+}
+
 .contact {
   margin: 0;
   text-align: center;
@@ -123,5 +127,5 @@
 
 svg {
   color: $cadet-blue-crayola;
-  margin: 1.1% 1% 0 0;
+  margin: 1.1% 0.5% 0 0;
 }
