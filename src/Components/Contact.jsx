@@ -26,7 +26,7 @@ export default class Contact extends React.Component {
             <label>Subject:</label>
             <input type="text" name="subject" />
             <label>Your Message:</label>
-            <input type="text" name="message" placeholder="Write something.." className="input-message"/>
+            <input type="text" name="message" placeholder="Write something..." className="input-message"/>
             {status === "SUCCESS" ? <p>Thanks!</p> : <button className="contact-container-row-button">Submit</button>}
             {status === "ERROR" && <p>Ooops! There was an error.</p>}
           </form>
