@@ -13,20 +13,12 @@ button:hover {
   border: 1px solid $cadet-blue-crayola;
 }
 
-form {
-  width: 50%;
-}
-
 input {
   width: 100%;
   padding: 12px 20px;
   border: 1px solid $light-gray;
   border-radius: 10px;
   color: $light-gray;
-}
-
-.span {
-  margin: 0 0 1% 0;
 }
 
 .input-message {
@@ -38,15 +30,14 @@ input {
   color: $light-gray;
   position: relative;
   min-height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10% 0 0 0;
 }
 
-.contact-container-col {
+.contact-container-row-contact {
   font-size: 24px;
-  padding: 10% 0 5% 0;
-}
-
-.contact-container-col-form {
-  margin: 0 0 2% 0;
+  margin: 5% 0 5% 0;
 }
 
 .contact-container-row-button {
@@ -54,11 +45,12 @@ input {
 }
 
 @media all and (max-device-width: 640px){
-  .contact-container-col {
-    margin:0 0 5% 0;
+
+  .contact-container-row-form {
+    width: 90%;
   }
 
   .contact-container-row {
-    padding: 1%;
+    margin: 5% 0 2% 0;
   }
 }

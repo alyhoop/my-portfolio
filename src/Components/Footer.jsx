@@ -9,7 +9,7 @@ class Footer extends Component {
      render(){
        return (
          <span className="content-wrap contact p-3 my-3">
-          <Container>
+          <Container className="footer-container">
             <Col>
              <FontAwesomeIcon
                icon={faEnvelope}
