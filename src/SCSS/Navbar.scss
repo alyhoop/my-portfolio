@@ -1,28 +1,14 @@
-@media all {
-  .navbar {
-    font: 100% $font-stack;
-    margin: 0;
-    background-color: $onyx;
-    color: $nickel;
-    box-sizing: content-box;
-    width: 100%;
+.navbar {
+  font: 100% $font-stack;
+  margin: 0;
+  background-color: $onyx;
+  color: $nickel;
 
-    :hover {
-      color: $cadet-blue-crayola;
-    }
-
-    .navbar-item {
-      justify-content: space-around;
-      margin-left: 49%;
-      padding: 1em;
-      border-radius: 5em;
-      max-width: 3em;
-    }
+  :hover {
+    color: $cadet-blue-crayola;
   }
 }
 
-@media all and (max-device-width: 640px){
-    .navbar {
-      width: 90%;
-    }
+.navbar-link {
+  color: $nickel;
 }

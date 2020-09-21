@@ -1,54 +1,20 @@
 import React, { Component } from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBCollapse, MDBContainer,
-MDBHamburgerToggler } from 'mdbreact';
+import Nav from 'react-bootstrap/Nav'
 
 class Navbar extends Component {
-state = {
-  collapse1: false,
-  collapseID: ''
-}
-
-toggleCollapse = collapseID => () => {
-  this.setState(prevState => ({ collapseID: (prevState.collapseID !== collapseID ? collapseID : '') }));
-}
-
-toggleSingleCollapse = collapseId => {
-  this.setState({
-    ...this.state,
-    [collapseId]: !this.state[collapseId]
-  });
-
-}
-
-render() {
-  return (
-      <MDBNavbar
-        className="navbar fixed-top"
-      >
-        <MDBContainer>
-          <MDBNavbarBrand>
-          </MDBNavbarBrand>
-          <MDBHamburgerToggler
-            id="hamburger1"
-            onClick={()=> this.toggleSingleCollapse('collapse1')}
-          />
-            <MDBCollapse isOpen={this.state.collapse1} navbar>
-              <MDBNavbarNav>
-                <MDBNavItem
-                active
-                >
-                <MDBNavLink className="navbar navbar-item navbar-item-home" to="/">Home</MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink className="navbar navbar-item navbar-item-portfolio" to="/Portfolio">Portfolio</MDBNavLink>
-                </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink className="navbar navbar-item navbar-item-contact" to="/Contact">Contact</MDBNavLink>
-                </MDBNavItem>
-              </MDBNavbarNav>
-            </MDBCollapse>
-        </MDBContainer>
-      </MDBNavbar>
+  render() {
+    return (
+      <Nav className="navbar justify-content-end fixed-top">
+        <Nav.Item>
+          <Nav.Link href="/" className="navbar-link">Home</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="/Portfolio" className="navbar-link">Portfolio</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="/Contact" className="navbar-link">Contact</Nav.Link>
+        </Nav.Item>
+      </Nav>
     );
   }
 }
