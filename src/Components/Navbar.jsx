@@ -23,7 +23,6 @@ toggleSingleCollapse = collapseId => {
 render() {
   return (
       <MDBNavbar
-        color="bg-dark"
         className="navbar fixed-top"
       >
         <MDBContainer>
