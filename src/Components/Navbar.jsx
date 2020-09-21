@@ -20,7 +20,6 @@ toggleSingleCollapse = collapseId => {
 
 }
 
-
 render() {
   return (
       <MDBNavbar
