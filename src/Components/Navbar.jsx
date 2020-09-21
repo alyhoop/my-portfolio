@@ -30,7 +30,6 @@ render() {
           <MDBNavbarBrand>
           </MDBNavbarBrand>
           <MDBHamburgerToggler
-            color="#6c757dff"
             id="hamburger1"
             onClick={()=> this.toggleSingleCollapse('collapse1')}
           />
