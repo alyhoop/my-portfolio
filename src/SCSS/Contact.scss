@@ -40,6 +40,8 @@ h2 {
 .contact-container {
   font: 100% $font-stack;
   color: $light-gray;
+  position: relative;
+  min-height: 100%;
 }
 
 .contact-container-col-form {

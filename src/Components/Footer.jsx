@@ -8,7 +8,7 @@ import { faGithub, faLinkedin, faStackOverflow, faGalacticSenate } from '@fortaw
 class Footer extends Component {
      render(){
        return (
-         <span className="fixed-bottom container-fluid contact p-3 my-3">
+         <span className="content-wrap contact p-3 my-3">
           <Container>
             <Col>
              <FontAwesomeIcon
