@@ -25,10 +25,6 @@ input {
   color: $light-gray;
 }
 
-h2 {
-  padding: 10% 0 5% 0;
-}
-
 .span {
   margin: 0 0 1% 0;
 }
@@ -44,6 +40,11 @@ h2 {
   min-height: 100%;
 }
 
+.contact-container-col {
+  font-size: 24px;
+  padding: 10% 0 5% 0;
+}
+
 .contact-container-col-form {
   margin: 0 0 2% 0;
 }
@@ -54,7 +55,7 @@ h2 {
 
 @media all and (max-device-width: 640px){
   .contact-container-col {
-    margin-bottom: 30%;
+    margin:0 0 5% 0;
   }
 
   .contact-container-row {

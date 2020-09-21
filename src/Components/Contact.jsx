@@ -17,7 +17,7 @@ export default class Contact extends React.Component {
     return (
       <Container className="contact-container">
         <Row className="contact-container-col justify-content-center">
-          <h2>Contact Information</h2>
+          Contact Information
         </Row>
         <Row className="contact-container-row-form">
           <Col className="contact-container-col-form">
