@@ -1,1 +1,1 @@
-This is a portfolio for Alyssa Hooper made using React, Bootstrap, FontAwesomeIcon, and MBDReact.
+This is a portfolio for Alyssa Hooper made using React, Bootstrap, & FontAwesomeIcon.
