@@ -16,8 +16,8 @@ function App() {
             <Navbar />
             <Switch>
                 <Route path="/" component={Header} exact />
-                <Route path="/portfolio" component={Portfolio} />
-                <Route path="/contact" component={Contact} />
+                <Route path="/Portfolio" component={Portfolio} />
+                <Route path="/Contact" component={Contact} />
                 <Route component={Error} />
             </Switch>
             <Footer />
