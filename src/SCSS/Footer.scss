@@ -100,15 +100,15 @@
 .icon-text {
   font: 100% $font-stack;
   margin: 1%;
-  color: $cadet-blue-crayola;
+  color: black;
 }
 
 .icon-text:link {
-  color: $light-gray;
+  color: black;
 }
 
 .icon-text:visited {
-  color: $light-gray;
+  color: black;
 }
 
 .icon-text:hover {
@@ -120,7 +120,6 @@
 }
 
 svg {
-  color: $cadet-blue-crayola;
   margin: 1.1% 0.5% 0 0;
 }
 
