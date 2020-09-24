@@ -10,7 +10,7 @@ class Footer extends Component {
      render(){
        return (
          <span className="contact">
-          <Container className="footer-container">
+          <Container className="footer-container fixed-bottom">
             <Row>
               <Col className="footer-container-col">
                  <FontAwesomeIcon
