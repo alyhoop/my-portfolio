@@ -6,39 +6,7 @@ class Portfolio extends Component {
     return(
       <div className="portfolio">
         <CardDeck>
-        <Card style={{flex:1}}>
-          <Card.Img
-            variant="top"
-            src="./Portfolio.jpg"
-          />
-          <Card.Body>
-            <Card.Title>Portfolio</Card.Title>
-            <Card.Text>
-              <p>
-                My role: Creator
-              </p>
-              <p>
-                Problem: Wanting a responsive, modern website to display my progress.
-              </p>
-              <p>
-                Solution: Researched top-rated designs on Dribbble and
-                implemented a minimalist inspired page to demonstrate competency
-                using responsive design techniques.
-              </p>
-              <div className="button flex-container">
-              <a href="https://github.com/alyhoop/my-portfolio">
-                <Button
-                  variant="light"
-                  className="button-1"
-                >
-                  Code
-                </Button>
-              </a>
-              </div>
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card style={{flex:1}}>
+        <Card style={{flex: 1}}>
           <Card.Img
             className="img"
             variant="top"
