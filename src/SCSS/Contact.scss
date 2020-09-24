@@ -5,7 +5,7 @@ button {
   width: 100%;
   padding: 12px 20px;
   letter-spacing: 1px;
-  color: $light-gray;
+  color: $cadet-blue-crayola;
 }
 
 button:hover {
@@ -18,11 +18,12 @@ input {
   padding: 12px 20px;
   border: 1px solid $light-gray;
   border-radius: 10px;
-  color: $light-gray;
+  color: $cadet-blue-crayola;
 }
 
 label {
   margin: 1% 0 1% 0;
+  color: $cadet-blue-crayola;
 }
 
 .input-message {

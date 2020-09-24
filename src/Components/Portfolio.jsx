@@ -6,7 +6,7 @@ class Portfolio extends Component {
     return(
       <div className="portfolio">
         <CardDeck>
-        <Card style={{flex:1, backgroundColor:'#495057ff'}}>
+        <Card style={{flex:1}}>
           <Card.Img
             variant="top"
             src="./Portfolio.jpg"
@@ -28,8 +28,7 @@ class Portfolio extends Component {
               <div className="button flex-container">
               <a href="https://github.com/alyhoop/my-portfolio">
                 <Button
-                  style={{backgroundColor:'#343a40ff'}}
-                  variant="secondary"
+                  variant="light"
                   className="button-1"
                 >
                   Code
@@ -39,7 +38,7 @@ class Portfolio extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{flex:1, backgroundColor:'#495057ff'}}>
+        <Card style={{flex:1}}>
           <Card.Img
             className="img"
             variant="top"
@@ -62,16 +61,14 @@ class Portfolio extends Component {
             <div className="button flex-container">
             <a href="http://www.shskincare.com/">
               <Button
-                style={{backgroundColor:'#343a40ff'}}
-                variant="secondary"
+                variant="light"
                 className="button-2">
                 Project
               </Button>
             </a>
             <a href="https://github.com/shskincare/shskincare.github.io">
               <Button
-                style={{backgroundColor:'#343a40ff'}}
-                variant="secondary"
+                variant="light"
                 className="button-2">
                 Code
               </Button>
@@ -80,7 +77,7 @@ class Portfolio extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{flex:1, backgroundColor:'#495057ff'}}>
+        <Card style={{flex:1}}>
           <Card.Img
             variant="top"
             src="./list.jpg"
@@ -101,8 +98,7 @@ class Portfolio extends Component {
             <div className="button flex-container">
             <a href="https://github.com/alyhoop/project-3">
               <Button
-                style={{backgroundColor:'#343a40ff'}}
-                variant="secondary"
+                variant="light"
                 className="button-3">
                 Code
               </Button>
@@ -111,7 +107,7 @@ class Portfolio extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{flex:1, backgroundColor:'#495057ff'}}>
+        <Card style={{flex:1}}>
           <Card.Img
             variant="top"
             src="./Menu.jpg"
@@ -133,8 +129,7 @@ class Portfolio extends Component {
               <div className="button flex-container">
               <a href="https://codepen.io/alyhoop/pen/BaKrqEL">
                 <Button
-                  style={{backgroundColor:'#343a40ff'}}
-                  variant="secondary"
+                  variant="light"
                   className="button-5"
                 >
                   Project
@@ -142,8 +137,7 @@ class Portfolio extends Component {
               </a>
               <a href="https://github.com/alyhoop/practice-scripts/tree/master/CSS%20Grid">
                 <Button
-                  style={{backgroundColor:'#343a40ff'}}
-                  variant="secondary"
+                  variant="light"
                   className="button-4"
                 >
                   Code
