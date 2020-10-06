@@ -4,7 +4,7 @@
     padding: 1%;
 
     #github {
-      color: black;
+      color: $cadet-blue-crayola;
 
       :link {
         color: $nickel;
@@ -15,7 +15,7 @@
       }
 
       :hover {
-        color: $cadet-blue-crayola;
+        color: $nickel;
       }
 
       :active {
@@ -28,7 +28,7 @@
     padding: 1%;
 
     #linkedin {
-      color: black;
+      color: $cadet-blue-crayola;
 
       :link {
         color: $nickel;
@@ -39,7 +39,7 @@
       }
 
       :hover {
-        color: $cadet-blue-crayola;
+        color: $nickel;
       }
 
       :active {
@@ -52,7 +52,7 @@
     padding: 1%;
 
     #email {
-      color: black;
+      color: $cadet-blue-crayola;
 
       :link {
         color: $nickel;
@@ -63,7 +63,7 @@
       }
 
       :hover {
-        color: $cadet-blue-crayola;
+        color: $nickel;
       }
 
       :active {
@@ -76,7 +76,7 @@
     padding: 1%;
 
     #resume {
-      color: black;
+      color: $cadet-blue-crayola;
 
       :link {
         color: $nickel;
@@ -87,7 +87,7 @@
       }
 
       :hover {
-        color: $cadet-blue-crayola;
+        color: $nickel;
       }
 
       :active {
@@ -100,15 +100,15 @@
 .icon-text {
   font: 100% $font-stack;
   margin: 1%;
-  color: black;
+  color: $cadet-blue-crayola;
 }
 
 .icon-text:link {
-  color: black;
+  color: $cadet-blue-crayola;
 }
 
 .icon-text:visited {
-  color: black;
+  color: $cadet-blue-crayola;
 }
 
 .icon-text:hover {
