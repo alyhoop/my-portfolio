@@ -17,18 +17,21 @@ class Footer extends Component {
                    icon={faEnvelope}
                    size="1x"
                    id="icon email-icon"
+                   color="grey"
                  />
                  <a className="icon-text" href="mailto:alyssavladahooper@gmail.com">alyssavladahooper@gmail.com</a>
                  <FontAwesomeIcon
                    icon={faStackOverflow}
                    size="1x"
                    id="icon so-icon"
+                   color="grey"
                  />
                  <a href="https://stackoverflow.com/users/13789454/alyssa-hooper" className="icon-text">My StackOverflow</a>
                  <FontAwesomeIcon
                    icon={faGalacticSenate}
                    size="1x"
                    id="icon galactic-icon"
+                   color="grey"
                  />
                  <a href="https://www.codewars.com/users/alyhoop" className="icon-text">My Codewars</a>
               </Col>
