@@ -54,7 +54,7 @@ class Footer extends Component {
                    </a>
                  </span>
                  <span className="contact-resume">
-                   <a href="./Resume_Alyssa_Hooper.pdf">
+                   <a href="./Alyssa_Hooper_Resume.pdf">
                      <FontAwesomeIcon
                        icon={faFile}
                        size="2x"
