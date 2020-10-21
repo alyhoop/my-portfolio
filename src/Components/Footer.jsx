@@ -45,7 +45,7 @@ class Footer extends Component {
                    </a>
                  </span>
                  <span className="contact-linkedin">
-                   <a href="https://www.linkedin.com/in/alyssa-hooper-300b6818a/">
+                   <a href="https://www.linkedin.com/in/alyhoop/">
                      <FontAwesomeIcon
                        icon={faLinkedin}
                        size="2x"
