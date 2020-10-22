@@ -30,7 +30,7 @@ class Portfolio extends Component {
             <a href="http://www.shskincare.com/">
               <Button
                 variant="light"
-                className="button-2">
+                className="button-1">
                 Project
               </Button>
             </a>
@@ -71,14 +71,14 @@ class Portfolio extends Component {
             <a href="https://devpost.com/software/breast-check?ref_content=user-portfolio&ref_feature=in_progress">
               <Button
                 variant="light"
-                className="button-2">
+                className="button-3">
                 Project
               </Button>
             </a>
             <a href="https://github.com/alyhoop/Girls-In-Tech-Hackathon">
               <Button
                 variant="light"
-                className="button-3">
+                className="button-4">
                 Code
               </Button>
             </a>
@@ -117,7 +117,7 @@ class Portfolio extends Component {
               <a href="https://github.com/alyhoop/practice-scripts/tree/master/CSS%20Grid">
                 <Button
                   variant="light"
-                  className="button-4"
+                  className="button-6"
                 >
                   Code
                 </Button>
