@@ -48,23 +48,27 @@ class Portfolio extends Component {
         <Card style={{flex:1}}>
           <Card.Img
             variant="top"
-            src="./list.jpg"
+            src="./Breast Check.png"
           />
           <Card.Body>
-            <Card.Title>Modern List</Card.Title>
+            <Card.Title>Breast Check</Card.Title>
             <Card.Text>
             <p>
-              My role: Creator
+              My role: Contributor/Sole Developer
             </p>
             <p>
-              Problem: Creating a styled list
+              Problem: A Girls In Tech Hackathon submission addressing the disparity
+              some face while finding screening sites and common information
+              about breast cancer.
             </p>
             <p>
-              Solution: I used Dribbble inspired styling for a modern check list,
-              that dynamically greets the user based on time of day.
+              Solution: I created a mobile prototype using React.js that combined
+              React-Google-Maps/API along with a React-Bootstrap to create a one stop
+              app where women could locate their nearest screening center or find
+              information about breast cancer in a drawer.
             </p>
             <div className="button flex-container">
-            <a href="https://github.com/alyhoop/project-3">
+            <a href="https://github.com/alyhoop/Girls-In-Tech-Hackathon">
               <Button
                 variant="light"
                 className="button-3">
