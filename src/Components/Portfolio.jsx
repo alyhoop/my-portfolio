@@ -126,45 +126,6 @@ class Portfolio extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{flex:1}}>
-          <Card.Img
-            variant="top"
-            src="./Menu.jpg"
-          />
-          <Card.Body>
-            <Card.Title>Brunch Finder</Card.Title>
-            <Card.Text>
-              <p>
-                My role: Creator
-              </p>
-              <p>
-                Problem: Designing an brunch finder.
-              </p>
-              <p>
-                Solution: I used yelp's API, React.js and react-bootstrap for the front end
-                 and Ruby and Sinatra for the back end.
-              </p>
-              <div className="button flex-container">
-              <a href="https://codepen.io/alyhoop/pen/BaKrqEL">
-                <Button
-                  variant="light"
-                  className="button-5"
-                >
-                  Project
-                </Button>
-              </a>
-              <a href="https://github.com/alyhoop/practice-scripts/tree/master/CSS%20Grid">
-                <Button
-                  variant="light"
-                  className="button-4"
-                >
-                  Code
-                </Button>
-              </a>
-              </div>
-            </Card.Text>
-          </Card.Body>
-        </Card>
         </CardDeck>
       </div>
     );
