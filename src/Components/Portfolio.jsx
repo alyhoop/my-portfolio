@@ -63,7 +63,7 @@ class Portfolio extends Component {
             </p>
             <p>
               Solution: I created a mobile prototype using React.js that combined
-              React-Google-Maps/ along with a React-Bootstrap to create a one stop
+              React-Google-Maps/API along with a React-Bootstrap to create a one stop
               app where women could locate their nearest screening center or find
               information about breast cancer in a drawer.
             </p>
@@ -132,18 +132,17 @@ class Portfolio extends Component {
             src="./Menu.jpg"
           />
           <Card.Body>
-            <Card.Title>Menu Concept</Card.Title>
+            <Card.Title>Brunch Finder</Card.Title>
             <Card.Text>
               <p>
                 My role: Creator
               </p>
               <p>
-                Problem: Designing an asthetically pleasing menu concept to study
-                CSS Grid.
+                Problem: Designing an brunch finder.
               </p>
               <p>
-                Solution: CSS Grid and Icons were used to style an organized
-                menu.
+                Solution: I used yelp's API, React.js and react-bootstrap for the front end
+                 and Ruby and Sinatra for the back end.
               </p>
               <div className="button flex-container">
               <a href="https://codepen.io/alyhoop/pen/BaKrqEL">
