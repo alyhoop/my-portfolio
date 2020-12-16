@@ -3137,7 +3137,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.gallery a img {
-				height: 12rem;
+				height: 22rem;
 				min-height: 0;
 			}
 
